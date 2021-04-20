@@ -1,0 +1,24 @@
+.root{
+    -fx-background-image: url(tree.jpg);
+    -fx-background-size: 700 450;
+    -fx-font-size: 12pt;
+    -fx-font-weight: bold;
+}
+
+.label{
+    -fx-background-color: rgb(4,217,18);
+    -fx-font-style: italic;
+    -fx-font-size: 14pt;
+}
+
+.button{
+    -fx-base: rgb(0,0,0);
+    -fx-background-radius: 20px;
+    -fx-padding: 8 25;
+}
+
+.button:hover{
+    -fx-background-color: rgb(64,68,54);
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.1;
+}
