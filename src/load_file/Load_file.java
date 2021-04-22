@@ -34,7 +34,7 @@ public class Load_file extends Application {
         String search_results_padding="-fx-padding: 8px 15px;";                                 //search results label padding value
         String search_results_error="-fx-background-color: red;";                               //search results label background color value
         
-        String[] names_array=new String[65];                                                    //string array to hold names
+        String[] names_array=new String[9];                                                    //string array to hold names
         
 //                        SETUP BUTTONS
         Button load_file_btn = new Button("LOAD FILE");
@@ -53,7 +53,7 @@ public class Load_file extends Application {
         load_file_btn.setOnAction(event ->{
             FileChooser file_chooser=new FileChooser(); 
             File selected_file=file_chooser.showOpenDialog(primaryStage);                   //open file chooser to select file
-            
+
             if (selected_file != null){
                 int index=0;
                 Scanner input_file;

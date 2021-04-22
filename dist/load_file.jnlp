@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="load_file.jar" size="63185" download="eager" />
+    <jar href="load_file.jar" size="63208" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="load_file.Load_file"  name="load_file" />
   <update check="always"/>

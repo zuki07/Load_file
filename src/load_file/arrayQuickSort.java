@@ -13,6 +13,7 @@ public class arrayQuickSort {
     
     private static void doQuickSort(String array[], int start, int end){
         int pivot_point;
+
         if (start<end){
             pivot_point=partition(array, start, end);
             doQuickSort(array, start, pivot_point-1);
@@ -31,8 +32,8 @@ public class arrayQuickSort {
         
         for (int scan=start+1; scan<=end; scan++){
             if (array[scan].compareTo(pivot_value)<0){
-            end_of_left_list++;
-            swap(array, end_of_left_list, scan);
+                end_of_left_list++;
+                swap(array, end_of_left_list, scan);
             }
         }
         swap(array, start, end_of_left_list);

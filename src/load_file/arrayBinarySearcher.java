@@ -18,7 +18,7 @@ public class arrayBinarySearcher {
         
         while (!found && first<=last){
             middle=(first+last)/2;
-            if (array[middle].equals(value)){
+            if (array[middle].toUpperCase().equals(value)){
                 found=true;
                 position=middle;
             }
